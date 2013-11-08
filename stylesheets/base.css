@@ -21,6 +21,13 @@
 	#Forms
 	#Misc */
 
+	/* make padding behave in a rational way per Paul Irish */
+* { 
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box;
+}
+
 
 /* #Reset & Basics (Inspired by E. Meyers)
 ================================================== */
